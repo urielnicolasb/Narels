@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+*::-moz-selection {
+  background-color: beige;
+}
+*::selection {
+  background-color: beige;
+}
+* .descripcion {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  background-color: beige;
+  height: 60px;
+  padding: 10px;
+}
+header .logonarelss {
+  display: inline-block;
+  margin-left: 27%;
+  padding-bottom: 10px;
+}
+header .menu {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  grid-gap: 10px;
+  align-items: center;
+  height: 100%;
+  background-color: beige;
+}
+header .menu .navbar {
+  display: flex;
+  align-items: center;
+}
+
+main h6 {
+  display: flex;
+  text-align: center;
+  background-color: white;
+  text-decoration: underline;
+  justify-content: center;
+  padding: 10px;
+}
+main .wsp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 80px;
+}
+main .contenido {
+  padding: 30px;
+}
+main .contenido .carta {
+  display: flex;
+  background-color: beige;
+  padding: 20px;
+  border-radius: 10px;
+  margin-inline: 1.5%;
+}
+main .contenido .carta .cartaimg {
+  width: 100%;
+  padding: 10px;
+}
+main .contenido .carta .cartaimg:hover {
+  border: 10px solid rgb(247, 247, 186);
+}
+main .buscar {
+  display: inline-block;
+  align-items: left;
+}
+main .descripcionproductos .descripciontemporada {
+  text-align: center;
+}
+main .container .col-md-3:hover {
+  opacity: 0.5;
+  transition: opacity 500ms;
+}
+main .contacto {
+  text-align: center;
+}
+main .imagencontacto {
+  max-width: 100%;
+  height: 200px;
+  display: flex;
+  margin: 5px;
+  border-radius: 30px;
+}
+
+.piedepagina {
+  text-align: center;
+  color: grey;
+  text-decoration: none;
+  padding: 50px;
+}/*# sourceMappingURL=style.css.map */
